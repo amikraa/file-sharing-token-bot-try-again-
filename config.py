@@ -7,15 +7,13 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7460381086:AAHqAyjcwID48jC_m6iUUX
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28123695
-"))
+APP_ID = int(os.environ.get("APP_ID", "28123695"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "6fcc0acacee23599eaa91208c854e879
-")
+API_HASH = os.environ.get("API_HASH", "6fcc0acacee23599eaa91208c854e879")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "2378421557"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002249190886"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6922646979"))
@@ -26,14 +24,14 @@ PORT = os.environ.get("PORT", "8585")
 #Database 
 #Database [https://t.me/+e_w3AfIh91wzZjhl]
 DB_URI = os.environ.get("DATABASE_URL", "https://t.me/+e_w3AfIh91wzZjhl")
-DB_NAME = os.environ.get("DATABASE_NAME", "Ex db")
+DB_NAME = os.environ.get("DATABASE_NAME", "custler0")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
 # 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "48962cd7932756e4ea3948f9fdacbd982d4fae40")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "971f149c5c6978f6638759fe769a54bd695cf704")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/+PZfHvzjSiZc4OGE1") # shareus ka tut_vid he 
@@ -68,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(5197673717)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
